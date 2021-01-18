@@ -1,0 +1,57 @@
+[
+    {
+        "name": "HTML5",
+        "icon": "html.png"
+    }, {
+        "name": "CSS3",
+        "icon": "css.png"
+    }, {
+        "name": "JavaScript",
+        "icon": "js.png"
+    }, {
+        "name": "PHP",
+        "icon": "php.png"
+    }, {
+        "name": "MySQL",
+        "icon": "mysql.png"
+    }, {
+        "name": "Angular",
+        "icon": "angular.png"
+    }, {
+        "name": "TypeScript",
+        "icon": "typescript.png"
+    }, {
+        "name": "Bootstrap",
+        "icon": "bootstrap.png"
+    }, {
+        "name": "GNU Bash",
+        "icon": "bash.png"
+    }, {
+        "name": "React",
+        "icon": "react.png"
+    }, {
+        "name": "FireBase",
+        "icon": "firebase.png"
+    }, {
+        "name": "IONIC 4",
+        "icon": "ionic.png"
+    }, {
+        "name": "Apache Server",
+        "icon": "apache.png"
+    }, {
+        "name": "GNU/Linux",
+        "icon": "linux.png"
+    }, {
+        "name": "C#",
+        "icon": "csharp.png"
+    }, {
+        "name": "C",
+        "icon": "c.png"
+    }, {
+        "name": "GIMP",
+        "icon": "gimp.png"
+    }, {
+        "name": "After Effects",
+        "icon": "ae.png"
+    }
+]

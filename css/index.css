@@ -1,0 +1,404 @@
+@font-face {
+    font-family: TitilliumWeb-Light;
+    src: url(fuentes/TitilliumWeb-Light.ttf);
+}
+
+
+* {
+    font-family: TitilliumWeb-Light;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+input:focus,
+a:focus,
+button:focus,
+select:focus,
+textarea:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 2px 8px #c1c1c1;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+
+header {
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+header {
+    animation: fadeIn ease 2s;
+}
+
+header h1 {
+    animation: traslate_name_left ease 2s;
+    transition: all 2s;
+}
+
+header h2 {
+    animation: traslate_name_rigth ease 2s;
+    transition: all 2s;
+}
+
+input.hiden:checked + label {
+    background: #082849;
+}
+
+
+
+.btn_toggle {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-content: space-between !important;
+    align-items: space-between !important;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    height: 390px;
+    width: 300px;
+    margin: 10px;
+    border: solid 1px #3D4752;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+h5.card-title {
+    color: #3D4752;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.centrado {
+    justify-content: center !important;
+}
+
+.component {
+    width: 600px;
+    justify-content: flex-start;
+    color: #fff;
+    margin: auto 0;
+}
+
+.component label,
+.contacts label {
+    width: 90px;
+    height: 60px;
+    margin: auto 0;
+    padding: 0;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.component label:hover,
+.contacts label:hover {
+    background: #082849;
+    transition: all 700ms;
+}
+
+.component label a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+}
+
+.contacts {
+    justify-content: flex-end;
+    width: 100px;
+    color: #fff;
+}
+
+.div_input_form {
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.div_input_form input {
+    padding-left: 10px;
+    width: 100%
+}
+
+
+.form-control,
+.div_input_form {
+    margin: 20px auto;
+}
+
+.input_form {
+    border: 0;
+}
+
+.img_skills {
+    width: 150px;
+    height: 150px;
+}
+
+.flex_h_c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.flex_v_c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.flex_space {
+    justify-content: space-around;
+}
+
+.footer_contact {
+    background: #1E2327;
+    color: #fff;
+    padding: 60px;
+}
+
+.hiden {
+    display: none;
+}
+
+.main_container {
+    animation: desplegar ease 1s;
+    /*animation-delay: 4s*/
+}
+
+.monitor {
+    background-image: url(../img/monitor.png);
+    background-size: 80px 70px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F1901C;
+    animation: fadeIn_rotate ease 2s;
+}
+
+.navigation {
+    animation: desplegar2 ease 0.7s;
+}
+
+.navigation {
+    width: 100%;
+    min-height: 60px;
+    background: #1867B6;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.options {
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+    width: 100%;
+}
+
+#portafolios {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}
+
+.portafolios {
+    padding: 60px 10px 30px 10px;
+}
+
+.portafolios h2 {
+    font-size: 50px;
+    text-shadow: 1px 2px 8px #434343;
+}
+
+.skills .flex_h_c {
+    flex-wrap: wrap;
+}
+
+.skill {
+    margin: 10px;
+}
+
+.skills {
+    background: #082849;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    padding: 60px 10px 30px 10px;
+}
+
+.skills h2 {
+    font-size: 50px;
+    text-shadow: 1px 2px 8px #c1c1c1;
+}
+
+
+textarea.form-control {
+    resize: none;
+    height: 100px;
+}
+
+#underscore {
+    background: #fff;
+    width: 20px;
+    height: 0.7px;
+    height: 0.7px;
+    color: #fff;
+    margin-right: 30px;
+    margin-top: 48px;
+}
+
+@media (max-width: 500px) {
+    .card {
+        background: #fff;
+        border-radius: 10px;
+        height: 390px;
+        width: 500px;
+        margin: 10px;
+        border: solid 1px #3D4752;
+    }
+
+    .img_skills {
+        width: 70px;
+        height: 70px;
+    }
+
+    #skills {
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+    }
+
+    .skill {
+        width: 70px;
+        height: 100px;
+    }
+
+    #portafolios {
+        width: 100% !important;
+    }
+
+
+    header {
+        height: 300px;
+    }
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn_rotate {
+    0% {
+        transform: rotateY(1440deg);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes traslate_name_left {
+    0% {
+        transform: translateX(-2000px) rotateY(720deg);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes traslate_name_rigth {
+    0% {
+        transform: translateX(+2000px) rotateY(720deg);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes desplegar {
+    0% {
+        opacity: 0;
+        z-index: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes desplegar2 {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}

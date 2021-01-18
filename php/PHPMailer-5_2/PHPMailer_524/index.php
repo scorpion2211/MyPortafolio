@@ -1,0 +1,12 @@
+<?php
+
+echo "ERROR - NO SE PUEDE ACCEDER A ESTA DIRECCIÓN!!!!";
+echo "ERROR - NO SE PUEDE ACCEDER A ESTA DIRECCIÓN!!!!";
+echo "ERROR - NO SE PUEDE ACCEDER A ESTA DIRECCIÓN!!!!";
+echo "ERROR - NO SE PUEDE ACCEDER A ESTA DIRECCIÓN!!!!";
+echo "ERROR - NO SE PUEDE ACCEDER A ESTA DIRECCIÓN!!!!";
+echo "ERROR - NO SE PUEDE ACCEDER A ESTA DIRECCIÓN!!!!";
+
+      header('Location: http://inetinfralab/Tickets');
+  
+?>

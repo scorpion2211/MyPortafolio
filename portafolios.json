@@ -1,0 +1,39 @@
+[
+    {
+        "title": "App Portal",
+        "icon": "portal",
+        "description": "A portal with access to the applications most used by the company.",
+        "descrip_extend": "It is intended to facilitate access to users without creating clutter on your desktop with shortcuts.",
+        "tecnologys": "HTML5:CSS3:Bootstrap"
+    }, {
+        "title": "Equipment Movements",
+        "icon": "mov_inventario",
+        "description": "A web inventory where you can record all the company assets transfers.",
+        "descrip_extend": "Users can send assets and indicate whether they take them personally or dispatch them by Logistics. In the second case, the <strong>Movements App</strong> will participate.",
+        "tecnologys": "HTML5:CSS3:JS:Bootstrap:PHP"
+    }, {
+        "title": "Movements App",
+        "icon": "mov_app",
+        "description": "A mobile application where cadets manage the deliveries and receptions of equipment.",
+        "descrip_extend": "This application works in conjunction with <strong>Team Movements</strong>. A system of routes will be included soon.",
+        "tecnologys": "IONIC:Angular:SCSS:PHP"
+    }, {
+        "title": "Ticket System",
+        "icon": "tickets",
+        "description": "A very easy and dynamic system to manage requests.",
+        "descrip_extend": "A web application that not only manages tickets but also allows to have a list of systems hardware and to record events of these computer equipment.",
+        "tecnologys": "HTML5:CSS3:JS:Bootstrap:PHP"
+    }, {
+        "title": "Contact Book",
+        "icon": "agenda",
+        "description": "An agenda of company employees with a dynamic search.",
+        "descrip_extend": "Allows you to sort by columns and search for one or more keywords instantly, providing a better user experience.",
+        "tecnologys": "HTML5:CSS3:JS:Bootstrap:PHP"
+    }, {
+        "title": "Calculator",
+        "icon": "calculadora",
+        "description": "At first glance it looks like a traditional Motorola phone calculator, but it hides a big secret.",
+        "descrip_extend": "It is a calculator to do a magic trick. At first glance it works normally but the magician guides people so that the numbers have specific characteristics. The result that the person throws will dial it with his cell phone and press <strong>call</strong>. Then my cell phone will ring and I will attend to it.Its use will not be shown so as not to fully reveal its secret",
+        "tecnologys": "Java:Android Studio:XML"
+    }
+]
