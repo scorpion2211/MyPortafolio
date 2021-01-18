@@ -14,7 +14,6 @@
 
     require 'PHPMailer-5_2/PHPMailerAutoload.php';
 
-
     $logUsuario_smtp = 'pruebas_nacho@gmail.com';
     $passUsuario_smtp = '123456';
 
