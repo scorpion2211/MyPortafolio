@@ -63,7 +63,7 @@ xhttp_activitys.onreadystatechange = function () {
         list_skills = JSON.parse(this.responseText);
         var activitys = "";
         list_skills.map(x => {
-            activitys += ` <div class="skill flex_v_c">
+            activitys += ` <div class="activity flex_v_c">
                                     <img class='img_activitys' src="img/activitys/${x.icon}" alt="" id="id_${x.name}">
                                     <label for="id_${x.name}">${x.name}</label>
                                 </div>`;
