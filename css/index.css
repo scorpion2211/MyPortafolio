@@ -172,6 +172,13 @@ h5.card-title {
     height: 150px;
 }
 
+.img_activitys {
+    width: 150px;
+    height: 150px;
+    -webkit-clip-path: circle(50% at 50% 50%);
+
+}
+
 .flex_h_c {
     display: flex;
     flex-direction: row;
@@ -268,17 +275,21 @@ h5.card-title {
     margin: 10px;
 }
 
-.skills {
+.skills,
+.activitys {
     background: #082849;
     width: 100%;
     color: #fff;
-    padding: 10px;
     padding: 60px 10px 30px 10px;
 }
 
 .skills h2 {
     font-size: 50px;
     text-shadow: 1px 2px 8px #c1c1c1;
+}
+
+.skill label {
+    font-weight: bold;
 }
 
 
@@ -295,6 +306,11 @@ textarea.form-control {
     color: #fff;
     margin-right: 30px;
     margin-top: 48px;
+}
+
+#activitys {
+    justify-content: center !important;
+    flex-wrap: wrap !important;
 }
 
 @media (max-width: 500px) {

@@ -53,6 +53,25 @@ xhttp_portafolio.onreadystatechange = function () {
     }
 }
 
+const xhttp_activitys = new XMLHttpRequest();
+xhttp_activitys.open('GET', 'activitys.json', true);
+
+xhttp_activitys.send();
+xhttp_activitys.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+        //console.log(this.responseText);
+        list_skills = JSON.parse(this.responseText);
+        var activitys = "";
+        list_skills.map(x => {
+            activitys += ` <div class="skill flex_v_c">
+                                    <img class='img_activitys' src="img/activitys/${x.icon}" alt="" id="id_${x.name}">
+                                    <label for="id_${x.name}">${x.name}</label>
+                                </div>`;
+        });
+        $('#activitys').html(activitys);
+    }
+}
+
 function LoadModal(id_app) {
     const xhttp_portafolio2 = new XMLHttpRequest();
     xhttp_portafolio2.open('GET', 'portafolios.json', true);
