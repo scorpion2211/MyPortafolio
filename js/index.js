@@ -72,6 +72,7 @@ xhttp_activitys.onreadystatechange = function () {
     }
 }
 
+
 function LoadModal(id_app) {
     const xhttp_portafolio2 = new XMLHttpRequest();
     xhttp_portafolio2.open('GET', 'portafolios.json', true);
